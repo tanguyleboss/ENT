@@ -100,12 +100,19 @@ header img{
 .autre{
     grid-column: 3/4;
     grid-row: 1/3;
-    background-color: transparent;
-    border: solid 3px white;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.soustheme{
+    border-radius: 15px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 10px;
 }
 
 #moodle{
