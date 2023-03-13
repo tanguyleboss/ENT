@@ -103,4 +103,47 @@ header img{
     background-color: transparent;
     border: solid 3px white;
 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+#moodle{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#bibli{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#office{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#zoom{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#document{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+#dossier{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+#annuaire{
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+#marquepage{
+    grid-column: 2/3;
+    grid-row: 4/5;
 }
