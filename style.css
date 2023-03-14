@@ -133,16 +133,24 @@ header img{
 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.2fr 1fr 0.2fr 1fr 0.2fr 1fr 0.2fr;
 }
 
 .soustheme{
     border-radius: 15px;
     background-color: white;
+    color: #000;
     margin-top: 10px;
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.autre p{
+    margin-top: -7px;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -153,39 +161,79 @@ header img{
     grid-row: 1/2;
 }
 
+.Moodle{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
 #bibli{
     grid-column: 2/3;
     grid-row: 1/2;
 }
 
+.Bibli{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
 #office{
     grid-column: 1/2;
-    grid-row: 2/3;
+    grid-row: 3/4;
+}
+
+.Office{
+    grid-column: 1/2;
+    grid-row: 4/5;
 }
 
 #zoom{
     grid-column: 2/3;
-    grid-row: 2/3;
+    grid-row: 3/4;
+}
+
+.Zoom{
+    grid-column: 2/3;
+    grid-row: 4/5;
 }
 
 #document{
     grid-column: 1/2;
-    grid-row: 3/4;
+    grid-row: 5/6;
+}
+
+.Document{
+    grid-column: 1/2;
+    grid-row: 6/7;
 }
 
 #dossier{
     grid-column: 2/3;
-    grid-row: 3/4;
+    grid-row: 5/6;
+}
+
+.Dossier{
+    grid-column: 2/3;
+    grid-row: 6/7;
 }
 
 #annuaire{
     grid-column: 1/2;
-    grid-row: 4/5;
+    grid-row: 7/8;
+}
+
+.Annuaire{
+    grid-column: 1/2;
+    grid-row: 8/9;
 }
 
 #marquepage{
     grid-column: 2/3;
-    grid-row: 4/5;
+    grid-row: 7/8;
+}
+
+.Marque-page{
+    grid-column: 2/3;
+    grid-row: 8/9;
 }
 
 .img50{
